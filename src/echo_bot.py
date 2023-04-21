@@ -23,7 +23,7 @@ async def send_welcome(message: types.Message):
     """
     This handler will be called when user sends `/start` or `/help` command
     """
-    await message.reply("Hi!\nI'm algo8CarrierBot!\nPowered by algo8.")
+    await message.reply("Hi!\nI'm algo8CarrierBot!\nPowered by Algo8 AI.")
 
 @dp.message_handler()
 async def echo(message: types.Message):
